@@ -1,0 +1,30 @@
+<pages>
+    <link>
+        <title>Learn C </title>
+        <url>../freecsresources/course_pages/c.html</url>
+    </link>
+    <link>
+        <title>Learn Cpp </title>
+        <url>../freecsresources/course_pages/cpp.html</url>
+    </link>
+    <link>
+        <title>Learn C++ </title>
+        <url>../freecsresources/course_pages/cpp.html</url>
+    </link>
+    <link>
+        <title>Learn java </title>
+        <url>../freecsresources/course_pages/java.html</url>
+    </link>
+    <link>
+        <title>Learn python </title>
+        <url>../freecsresources/course_pages/python.html</url>
+    </link>
+    <link>
+        <title>Learn HTML </title>
+        <url>../freecsresources/course_pages/html.html</url>
+    </link>
+    <link>
+        <title>Learn CSS </title>
+        <url>../freecsresources/course_pages/css.html</url>
+    </link>
+</pages>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Course HUB</title>
+
+    <!-- Jquery Library file -->
+    <script src="../../freecsresources/js/Jquery3.4.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#includedNavigation").load("course_nav.html");
+        });
+
+    </script>
+
+    <!-- Linking Style.css for Navigation Bar -->
+    <link rel="stylesheet" href="../css/Style.css">
+
+    <!--------- Custom Css file for course pages ------->
+    <link rel="stylesheet" href="../course_pages/course.css">
+
+    <!-- Custom Styling for this page only -->
+    <style>
+        section {
+            margin-bottom: 10px;
+        }
+
+        section {
+            background: url('./course_background.jpg');
+            background-size: cover;
+        }
+
+        section .container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        section .container .course-title {
+            margin: 15px;
+        }
+
+        .course-title .btn{
+            background: var(--sky);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ---------- Including Navigation Bar for course ----------- -->
+
+    <div id="includedNavigation"></div>
+
+    <!-- ----x----- Including Navigation Bar for course -----x----- -->
+
+    <!--------------------- Course Tutorials ---------------------->
+
+    <section>
+        <div class="container">
+            <div class="course-title">
+                <img src="../assets/courses/c.png" alt="post-1">
+                <div>
+                    <h3>Learn C programming </h3>
+                    <form action="./c.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+            <div class="course-title">
+                <img src="../assets/courses/cpp.png" alt="post-1">
+                <div>
+                    <h3>Learn C++ programming </h3>
+                    <form action="./cpp.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+            <div class="course-title">
+                <img src="../assets/courses/java.jpg" alt="post-1">
+                <div>
+                    <h3>Learn java programming </h3>
+                    <form action="./java.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+            <div class="course-title">
+                <img src="../assets/courses/python.png" alt="post-1">
+                <div>
+                    <h3>Learn Python programming </h3>
+                    <form action="./python.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+            <div class="course-title">
+                <img src="../assets/courses/html.jpg" alt="post-1">
+                <div>
+                    <h3>Learn HTML5 </h3>
+                    <form action="./html.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+            <div class="course-title">
+                <img src="../assets/courses/css.png" alt="post-1">
+                <div>
+                    <h3>Learn CSS3 </h3>
+                    <form action="./css.html" target="_blank">
+                        <button class="btn">Tutorial</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------x--------- Course Tutorials ----------x----------->
+
+    <!-- -------------- Footer ----------------- -->
+
+    <footer>
+        <h2>Visit Again for more Tutorials...</h2>
+    </footer>
+
+    <!-- ------x------- Footer ---------x------- -->
+
+
+</body>
+
+</html>

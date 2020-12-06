@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    background: black;
+    color: whitesmoke;
+}
+
+
+.course-body{
+    margin: 10px 0;
+    background: url('../course_pages/course_background.jpg');
+    background-size: cover;
+   
+}
+
+.course-body *{
+    border-radius: 10px;
+}
+
+.course-body .course-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.course-body .course-content section{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+    height: 200px;
+    background: rgb(0, 0,0,0.5);
+}
+
+.course-body .course-content .right{
+    width: 45%;
+    float: left;
+    height: 315px;
+    background: rgb(0, 0,0,0.2);
+}
+
+.course-content section .tutorials{
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.course-content section .tutorials span{
+    color: yellowgreen;
+    font-size: large;
+    font-weight: bold;
+}
+
+*/
+.course-body::after {
+    content: "";
+    clear: both;
+    display: table;
+}
