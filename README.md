@@ -1,4 +1,7 @@
 # Internet Technologies Project - Freecsresources_website
+
+***This website provides the Computer science resources like youtube videos, tutorial blogs etc, absolutely free.***
+
 ## Submitted By:
 **Sourabh kumar choudhary**
 
@@ -8,7 +11,7 @@
 
 ## Installation Steps(Configuration):
 1. Download and Unzip the file on your local system.
-2. copy Freecsresources_website folder and put this file inside root directory(for xampp is htdocs,for wamp is www and for lamp is var/www/
+2. copy Freecsresources_website folder and put this file inside root directory(for xampp is htdocs,for wamp is www and for lamp is var/www/)
 3. Database Configuration
    - Open phpmyadmin.
    - Create Database freecsresources
